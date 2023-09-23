@@ -9,6 +9,7 @@ namespace CoverMoney.DebitsDto
         public string Nome {  get; set; }
         public double Valor { get; set; }
         public int NumPrestacoes { get; set; }
+        public string 
 
         public DebitInputDto(string nome, double valor, int numPrestacoes)
         {
